@@ -99,12 +99,12 @@ class SimpleFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip495507257">
-                  Star on Github
+                  Check me out on Github
                 </UncontrolledTooltip>
               </Col>
             </Row>
             <hr />
-            <Row className=" align-items-center justify-content-md-between">
+            {/* <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
                 <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
@@ -153,7 +153,7 @@ class SimpleFooter extends React.Component {
                   </NavItem>
                 </Nav>
               </Col>
-            </Row>
+            </Row> */}
           </Container>
         </footer>
       </>
