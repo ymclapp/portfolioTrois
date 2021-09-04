@@ -37,7 +37,7 @@ class SimpleFooter extends React.Component {
           <Container>
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
-                <h3 className=" text-primary font-weight-light mb-2">
+                {/* <h3 className=" text-primary font-weight-light mb-2">
                   Thank you for supporting us!
                 </h3>
                 <h4 className=" mb-0 font-weight-light">
@@ -58,20 +58,20 @@ class SimpleFooter extends React.Component {
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip475038074">
                   Follow us
-                </UncontrolledTooltip>
+                </UncontrolledTooltip> */}
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.linkedin.com/in/yvetteclapp/"
                   id="tooltip837440414"
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-facebook-square" />
+                    <i className="fa fa-linkedin-square" />
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
-                  Like us
+                  Follow me
                 </UncontrolledTooltip>
                 {/* <Button
                   className="btn-icon-only rounded-circle ml-1"
