@@ -15,7 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from 'react';
 
 // reactstrap components
 import {
@@ -32,13 +32,13 @@ import {
   Container,
   Row,
   Col
-} from "reactstrap";
+} from 'reactstrap';
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import SimpleFooter from "components/Footers/SimpleFooter.js";
-import github from "assets/img/icons/common/github.svg";
-import googleImg from "assets/img/icons/common/google.svg";
+import DemoNavbar from 'components/Navbars/DemoNavbar.js';
+import SimpleFooter from 'components/Footers/SimpleFooter.js';
+import github from 'assets/img/icons/common/github.svg';
+import googleImg from 'assets/img/icons/common/google.svg';
 
 class Register extends React.Component {
   componentDidMount() {

@@ -15,15 +15,16 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+
+import React from 'react';
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
+import { Button, Card, Container, Row, Col } from 'reactstrap';
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import DemoNavbar from 'components/Navbars/DemoNavbar.js';
+import SimpleFooter from 'components/Footers/SimpleFooter';
+import profile from 'assets/img/theme/profile.png';
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -108,47 +109,82 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">2</span>
+                          <span className="description">Daughters</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading">3</span>
+                          <span className="description">Dogs</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
+                          <span className="heading">Eagles</span>
+                          <span className="description">Favorite Band</span>
                         </div>
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Yvette Clapp
+                      <span className="font-weight-light">, MBA, DTM</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Marion, Iowa
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Change leader | Data Analysis | Project Management | Website Coding
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Delta V Code School | Colorado Technical University (MBA)
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        Degreed leader with 25+ years of experience in problem solving, creating solutions, lifetime learning, developing projects, trainer, and data analyst. Expert change leader specializing in identifying efficiencies, improving employee engagement, standardizing processes, communication, analysis, development, and measurement of key performance metrics.</p>
+
+                        <p>Languages: CSS, HTML, Javascript, EJS, AJAX, SQL, JQuery, APIs, C#, Python, SQL</p>
+                        <p>Tools: MS Office Suite of Products, Power BI, GitHub, Heroku, Visual Studio, Ubuntu, Trello, VBA</p>
+
+                        <p><strong>Data Analyst | Project Manager | Website Development</strong></p>
+                        <p><strong>Email: ymclapp@yahoo.com</strong></p>
+
+                        <p>Senior Manager excelling at driving increased productivity, increased quality, increased communication, standardized processes, and ensuring successful changes as needed. Expertise in learning any process, software, or techniques needed to be the most successful.</p>
+
+                        <p>Expert leader with advanced communication skills to empower employees, communicate changes, analyze data, demonstrate processes, gain buy in, and provide feedback to customers and upper management on processes or changes needed.</p>
+
+                        <p><strong>CORE COMPETENCIES</strong>
+
+                        • Leadership
+                        • Fearless Learner
+                        • Time Management
+                        • Project Management
+                        • Report Development
+                        • Problem Solver
+                        • Teamwork
+                        • Communication (written, verbal, interpersonal)
+                        • Customer Service
+                        • Detail Oriented
+                        • Organization
+                        • Learning – technology/processes/coding/etc.
+                        </p>
+                        <p><strong>ACCOMPLISHMENTS</strong></p>
+
+                        <p> • Constantly learning new coding languages, software, or processes to keep skills sharp. Recently completely Python, C#, Power BI, Javascript, CSS, HTML, AJAX, JQery, APIs and am continuing onto additional levels of languages, software, and processes. A fearless learner!</p>
+
+                        <p> • Overhauled the procedure for process completion involving multiple systems resulting in the elimination of bottlenecks in productivity and increased employee engagement</p>
+
+                        <p> • Creation thru moderated training on an Excel system of forms to allow employees to upload information and have documentation created for them vs three static, redundant Excel workbooks which increased security of documentation, standardized processes, increased productivity and decreased human error</p>
+
+                        <p> • Led the department in the introduction of pre-deadlines to drive employees toward a higher success of hitting deadlines to increase productivity stats by 5% </p>
+
+                        <p>• Launched a Change Management process that required collaboration with key employees affected by the change and increased communication (verbal and written) of affected changes</p>
+
+                        <p><strong>Contact me at ymclapp@yahoo.com for any data analysis/development/project opportunities</strong>
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
