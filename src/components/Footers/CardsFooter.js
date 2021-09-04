@@ -31,7 +31,7 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import landing from "assets/img/theme/landing.jpg";
+// import landing from "assets/img/theme/landing.jpg";
 import profile from "assets/img/theme/profile.jpg";
 
 class CardsFooter extends React.Component {
@@ -43,10 +43,10 @@ class CardsFooter extends React.Component {
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
-                  <Link to="/landing-page">
+                  <Link to="/profile-page">
                     <CardImg
                       alt="..."
-                      src={landing}
+                      src={profile}
                     />
                   </Link>
                 </Card>
